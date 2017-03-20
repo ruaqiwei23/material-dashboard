@@ -127,12 +127,14 @@
             font-weight: $font-weight-default;
             line-height: 30px;
         }
-        
+
         .logo-img {
             background: url(../img/logo.jpg) no-repeat center center;
             background-size: contain;
             text-indent: -999em;
             display: block;
+            width: 100%;
+            height: 45px;
         }
     }
 

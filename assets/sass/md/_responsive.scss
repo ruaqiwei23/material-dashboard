@@ -88,6 +88,12 @@
             display: none;
         }
     }
+
+    .login {
+        [class*="col-"] {
+            float: none;
+        }
+    }
 }
 
 /*          Changes for small display      */

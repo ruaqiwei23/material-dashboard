@@ -1,5 +1,5 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #f3f3f3;
   // background: #fdfdfe;
   color: $black-color;
   &.inverse {
@@ -25,6 +25,29 @@ body {
     &.wrapper-full-page{
         height: auto;
         min-height: 100vh;
+    }
+}
+
+.login {
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+    &:after {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        content: "";
+        display: block;
+        background: #000;
+        opacity: .5;
+        top: 0;
+        left: 0;
+    }
+
+    .wrapper {
+        .content {
+            @include vertical-align;
+        }
     }
 }
 

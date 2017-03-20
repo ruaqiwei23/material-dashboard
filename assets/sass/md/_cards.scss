@@ -148,6 +148,34 @@
             color: $gray-color;
         }
 
+        .pagination{
+            > li > a,
+            > li > span {
+                color: $brand-primary;
+            }
+
+            > li > a:focus,
+            > li > a:hover,
+            > li > span:focus,
+            > li > span:hover {
+                color: $white;
+                background-color: $green-200;
+                border-color: $green-200;
+            }
+
+            > .active > a,
+            > .active > a:focus,
+            > .active > a:hover,
+            > .active > span,
+            > .active > span:focus,
+            > .active > span:hover {
+                color: $white;
+                background-color: $brand-primary;
+                border-color: $brand-primary;
+            }
+        }
+
+
     }
 
     img{
@@ -333,5 +361,11 @@
         .card-avatar{
             margin-top: 0;
         }
+    }
+}
+
+.card-login {
+    .card-content {
+        padding: 20px 40px;
     }
 }
