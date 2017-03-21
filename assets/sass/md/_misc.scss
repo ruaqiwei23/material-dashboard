@@ -49,6 +49,10 @@ body {
             @include vertical-align;
         }
     }
+    
+    [class*="col-"] {
+        float: none;
+    }
 }
 
 
